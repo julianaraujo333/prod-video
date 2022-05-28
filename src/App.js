@@ -2,6 +2,7 @@ import "./App.css";
 import logo from "./Assets/logo.png";
 import Introduction from "./Components/Introduction/Introduction";
 import Option from "./Components/Option/Option";
+import Question from "./Components/Question/Question";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </header>
       <div className="wrapper">
         <section className="container">
-          <Option />
+          <Question />
         </section>
       </div>
     </div>
