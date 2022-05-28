@@ -1,6 +1,8 @@
 import "./App.css";
 import logo from "./Assets/logo.png";
 import Introduction from "./Components/Introduction/Introduction";
+import Option from "./Components/Option/Option";
+
 function App() {
   return (
     <div className="app">
@@ -9,7 +11,7 @@ function App() {
       </header>
       <div className="wrapper">
         <section className="container">
-          <Introduction />
+          <Option />
         </section>
       </div>
     </div>
