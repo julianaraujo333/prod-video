@@ -1,5 +1,6 @@
 import styles from "./Introduction.module.css";
 import logo from "./../../Assets/logoPreto.png";
+import { Link } from "react-router-dom";
 function Introduction() {
   return (
     <div className={styles.wrapper}>
@@ -9,7 +10,7 @@ function Introduction() {
       </div>
 
       <img src={logo} alt="Prod" />
-      <button>Iniciar</button>
+      <Link to="/question">Iniciar</Link>
     </div>
   );
 }

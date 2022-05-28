@@ -1,3 +1,4 @@
+import Menu from "../Menu/Menu";
 import Option from "../Option/Option";
 import styles from "./Question.module.css";
 function Question() {
@@ -10,6 +11,7 @@ function Question() {
         <Option />
         <Option />
       </div>
+      <Menu />
     </div>
   );
 }
