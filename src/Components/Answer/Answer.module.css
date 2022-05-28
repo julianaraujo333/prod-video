@@ -1,11 +1,17 @@
 .wrapper{
   padding: 3rem;
   animation: enter 400ms cubic-bezier(.5, 0, .2, 1) backwards;
+  text-align: center;
 }
 
 .wrapper h2{
-  text-align: center;
   font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper span{
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .optionsContainer{

@@ -10,7 +10,7 @@ function Introduction() {
       </div>
 
       <img src={logo} alt="Prod" />
-      <Link to="/question">Iniciar</Link>
+      <Link to="/video">Iniciar</Link>
     </div>
   );
 }

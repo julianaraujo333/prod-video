@@ -1,19 +1,17 @@
 import Option from "../Option/Option";
-import styles from "./Question.module.css";
+import styles from "./Answer.module.css";
 
 import { Link } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { BiRightArrow } from "react-icons/bi";
 import { BiLeftArrow } from "react-icons/bi";
 
-function Question() {
+function Answer() {
   return (
     <div className={styles.wrapper}>
       <h2>Qual é a agência que transforma ideias em soluções digitais?</h2>
+      <span>Resposta Correta</span>
       <div className={styles.optionsContainer}>
-        <Option />
-        <Option />
-        <Option />
         <Option />
       </div>
       <div className={styles.menu}>
@@ -22,11 +20,8 @@ function Question() {
         </Link>
 
         <div>
-          <Link to="/video">
+          <Link to="/question">
             <BiLeftArrow />
-          </Link>
-          <Link to="/answer">
-            <BiRightArrow />
           </Link>
         </div>
       </div>
@@ -34,4 +29,4 @@ function Question() {
   );
 }
 
-export default Question;
+export default Answer;
