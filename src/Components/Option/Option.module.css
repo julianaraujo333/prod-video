@@ -32,3 +32,10 @@
 .optionBox:active{
   transform: scaleX(0.9);
 }
+
+@media screen and (max-width: 768px) {
+  .optionBox span{
+    margin-right: .2rem;
+  }
+
+}

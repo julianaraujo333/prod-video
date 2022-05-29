@@ -44,6 +44,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .wrapper {
+     padding: .7rem;
+  }
+
+  .wrapper h2{
+    font-size: 1.6rem;
+  }
+}
+
 
 
 
