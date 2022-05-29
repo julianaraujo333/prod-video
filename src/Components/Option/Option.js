@@ -1,9 +1,9 @@
 import styles from "./Option.module.css";
-function Option() {
+function Option({ letter, title }) {
   return (
     <div className={styles.optionBox}>
-      <span>a</span>
-      <p>Apresentação Layout</p>
+      <span>{letter}</span>
+      <p>{title}</p>
     </div>
   );
 }
